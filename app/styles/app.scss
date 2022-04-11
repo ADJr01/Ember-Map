@@ -1,0 +1,21 @@
+@import "common";
+.map-container{
+  min-height: 85vh;
+}
+
+.map-container input[type="file"]{
+  display: none;
+}
+
+.custom-file-upload {
+  border: none;
+  color: #2c3e50;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+
+#map_view{
+  width: 540px;
+  height: 540px;
+}

@@ -1,0 +1,13 @@
+{{#if this.fileNotSelected}}
+  <div class="width-70 map-container apply-margin-to-center  height-full bg-white-4 border-radius-m glass-backdrop  thin-light-border display-flex flex-content-center flex-content-align-center">
+    <div class="display-flex flex-column flex-content-align-center">
+      <label for="file-upload" class="custom-file-upload">
+        <i class="fa fa-cloud-upload"></i>
+      </label>
+      <input id="file-upload" type="file" {{did-insert this.fileHandler}}/>
+      <h3 class="opacity-half text-no-select text-bold apply-margin-t1">Upload Excel</h3>
+    </div>
+  </div>
+{{else}}
+  <MapView/>
+{{/if}}

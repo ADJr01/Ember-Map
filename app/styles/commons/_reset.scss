@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+html {
+  line-height: 1.15;
+  font-size: 62.5%; // modified.. should be 100% or 16px
+  font-family: 'Slabo 27px', serif;
+}
+
+::after::before {
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+  border: none;
+}
+body {
+  margin: 0;
+  font-family: 'Slabo 27px', serif;
+  box-sizing: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a{
+  text-decoration: none;
+  border-bottom: none;
+}
+
+a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+b,
+strong {
+  font-weight: bolder;
+}
+ol,
+ul {
+  list-style: none;
+}
+button {
+  overflow: visible;
+  text-transform: none;
+}
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner,
+button::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+input:focus {
+  overflow: visible;
+  outline: 0;
+  pointer-events: none;
+}
+h1,
+h2,
+h3,
+h4 {
+  opacity: 0.9;
+  letter-spacing: 1px;
+}
+p {
+  opacity: 0.9;
+  letter-spacing: 0;
+}

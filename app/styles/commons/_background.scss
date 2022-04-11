@@ -1,0 +1,135 @@
+.bg-fix {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.bg-white-1{
+  background: $mat-white-8;
+}
+
+.bg-white-2{
+  background: $mat-white-2;
+}
+.bg-white-3{
+  background: $mat-white-15;
+}
+.bg-white-4{
+  background: $mat-white-10;
+}
+.bg-white-5{
+  background: $mat-white-4;
+}
+
+.bg-charcol{
+  background: $mat-charcol;
+}
+
+.bg-blue-info{
+  background: $mat-info;
+}
+
+.bg-primary{
+  background: $mat-primary;
+}
+.bg-snap-blue{
+  background: $mat-blue-sap;
+}
+
+.bg-colbat-blue{
+  background: $mat-blue-cobalt;
+}
+
+.bg-colbat-blue-light{
+  background: lighten($mat-blue-cobalt,$light-percent);
+}
+
+
+.bg-grad-dark{
+  background-color: #000000 ;
+  background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+}
+
+.bg-grad-dark-1{
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+}
+
+.bg-deep-blue{
+  background-color: #000000!important;
+  background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+}
+
+.bg-sky-grad{
+  background-color: #0d0a0b!important;
+  background-image: linear-gradient(315deg, #0d0a0b 0%, #009fc2 74%);
+}
+
+.bg-blueish {
+  background: radial-gradient(circle farthest-side, #e1f5fe, #e0f7fa, #e8f5e9);
+}
+.bg-greenish {
+  background: radial-gradient(circle, #e8f5e9, #f1f8e9);
+}
+.bg-darkish {
+  background: $mat-dark2;
+}
+
+
+.bg-burgundy{
+  background: $mat-burgundy;
+}
+
+.bg-burgundy-light{
+  background: lighten($mat-burgundy,$light-percent) ;
+}
+
+
+
+
+.bg-yellow{
+  background: $mat-yellow;
+}
+
+.bg-yellow-lighten{
+  background: lighten($mat-yellow,$light-percent);
+}
+
+
+.bg-green{
+  background: $mat-green;
+}
+
+.bg-green-light{
+  background: lighten($mat-green,$light-percent);
+}
+
+
+.bg-orange{
+  background: $mat-orange;
+}
+
+.bg-orange-light{
+  background: lighten($mat-orange,$light-percent);
+}
+
+.bg-purple{
+  background: $mat-purple;
+}
+
+.bg-purple-light{
+  background: lighten($mat-purple,$light-percent);
+}
+
+
+
+.bg-pink{
+  background: $mat-pink;
+}
+
+.bg-pink-lighten{
+  background: lighten($mat-pink,$light-percent);
+}
+
+
+

@@ -1,0 +1,72 @@
+.text-center {
+  text-align: center;
+}
+.text-start {
+  text-align: start;
+}
+.text-end {
+  text-align: end;
+}
+.text-unset {
+  text-align: unset;
+}
+.text-decor-none {
+  text-decoration: none;
+  border-bottom: none;
+
+}
+
+.text-size-light{
+  font-size: 0.9rem;
+}
+
+.text-size-small {
+  font-size: 1.2rem;
+}
+.text-size-medium {
+  font-size: 1.6rem;
+}
+.text-size-medium-1 {
+  font-size: 2rem;
+}
+.text-size-large {
+  font-size: 1.8rem;
+}
+.text-size-xl {
+  font-size: 2.4rem;
+}
+.text-size-xxl {
+  font-size: 2.8rem;
+}
+.text-bold {
+  font-weight: bold;
+}
+.text-bolder {
+  font-weight: bolder;
+}
+
+.text-no-select{
+  user-select: none;
+}
+
+.text-upper {
+  text-transform: uppercase;
+}
+.text-lower {
+  text-transform: lowercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.letter-space-l{
+  letter-spacing: 2px;
+}
+
+.letter-space-m{
+  letter-spacing: 4px;
+}
+
+.letter-space-h{
+  letter-spacing: 6px;
+}
